@@ -1,0 +1,11 @@
+<!--pages/content/content.wxml-->
+<view>
+hello world || {{msg}}
+
+<view>num:{{num}}</view>
+<view data-id="{{title}}">person.name:{{person.name}}</view>
+<view>person.age:{{person.age}}</view>
+<view data-id="{{title}}">{{title}}</view>
+
+<view> <checkbox checked="{{true}}">male</checkbox> </view>
+</view>
